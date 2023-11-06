@@ -1,0 +1,98 @@
+/* How it Works Section Starts Here */
+/* ========================= */
+
+.section-how {
+    padding: 9.6rem 0;
+  }
+  
+  .secondary-heading {
+    /* border: 1px solid orange; */
+    font-size: 4.4rem;
+    font-weight: 700;
+    letter-spacing: -1px;
+    color: #333;
+    margin-bottom: 9.6rem;
+  }
+  
+  .sub-heading {
+    /* border: 1px solid red; */
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+    color: #cf711f;
+    margin-bottom: 1.6rem;
+  }
+  
+  .step-text-box {
+    /* border: 1px dashed red; */
+  }
+  
+  .step-number {
+    /* border: 1px solid black; */
+  
+    font-size: 8.6rem;
+    font-weight: 600;
+    color: #ddd;
+    margin-bottom: 1.2rem;
+  }
+  
+  .tertiary-heading {
+    /* border: 1px solid black; */
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: -1px;
+    line-height: 1.2;
+    color: #333;
+    margin-bottom: 3.2rem;
+  }
+  
+  .step-description {
+    /* border: 1px solid black; */
+    font-size: 1.8rem;
+    line-height: 1.6;
+  }
+  .step-img-box {
+    /* border: 1px dashed blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .step-img-box::before{
+    content: '';
+    background-color: #fdf2e5;
+    border-radius: 50%;
+    display: block;
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+    
+    /* Trick : 60% of the Parent's Width*/
+    padding-bottom: 60%;
+  }
+  
+  .step-img-box::after{
+    content: '';
+    background-color: #fae5d3;
+    border-radius: 50%;
+    display: block;
+    width: 45%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+    
+    /* Trick : 60% of the Parent's Width*/
+    padding-bottom: 45%;
+  }
+  
+  .step-img {
+    /* border: 1px dashed darkturquoise; */
+    width: 35%;
+    z-index: 1;
+  }

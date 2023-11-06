@@ -1,0 +1,110 @@
+
+/* Cta Section Starts Here */
+
+.section-cta {
+    padding: 4.8rem 0 12.8rem 0;
+  }
+  
+  .cta-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border-radius: 12px;
+    background-color: #efbf95;
+    overflow: hidden;
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+  
+    /* Temp Height */
+    /* height: 50rem;  */
+  }
+  
+  /* CTA Box
+  -------------- */
+  .cta-text-box {
+    padding: 6.4rem;
+    padding-top: 4.8rem;
+    border: 1px solid wheat;
+  }
+  .cta-heading {
+    font-size: 4.4rem;
+    font-weight: 700;
+    letter-spacing: -1px;
+    color: #2c1807;
+    margin-bottom: 3.2rem;
+  
+    /* border: 1px solid orange; */
+  }
+  
+  .cta-text {
+    color: #2c1807;
+  
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    /* border: 1px solid orange; */
+    margin-bottom: 4.8rem;
+  }
+  
+  /* Image Box
+  ------------- */
+  .cta-img-box {
+    background-image: 
+      linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(../img/eating.jpg);
+    background-size: cover;
+    background-position: center;
+    /* border: 1px dashed rebeccapurple; */
+  
+  }
+  
+  /* Form Box */
+  
+  .cta-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 3.2rem;
+    row-gap: 2.4rem;
+    /* border: 1px solid black; */
+  }
+  
+  .cta-form label {
+    display: block;
+    margin-bottom: 1.2rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #2c1807;
+  }
+  .cta-form input,
+  .cta-form select {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.8rem;
+    font-family: inherit;
+    border: none;
+    border-radius: 9px;
+    background-color: #fdf2e9;
+    color: #2c1807;
+  }
+  
+  .cta-form input::placeholder {
+    color: #aaa;
+  }
+  
+  /* Button */
+  
+  .cta-btn {
+    font-size: 2rem;
+    font-family: inherit;
+    align-self: end;
+    padding: 1rem;
+    border-radius: 9px;
+    cursor: pointer;
+    background-color: #2c1807;
+    color: #fdf2e9;
+    transition: all 0.3s;
+    border: none;
+  }
+  
+  .cta-btn:hover {
+    background-color: #fdf2e9;
+    color: #555;
+  }
+  

@@ -1,0 +1,120 @@
+
+/* Pricing Section Starts Here */
+
+.pricing-section {
+    padding: 9.6rem 0;
+    /* background-color: #9f9f9f; */
+  }
+  
+  .pricing-plan {
+    width: 75%;
+    border-radius: 12px;
+  }
+  
+  .pricing-plan--starter {
+    justify-self: end;
+    border: 5px solid #fdf2e9;
+    padding: 4.6rem;
+  }
+  
+  .pricing-plan--complete {
+    overflow: hidden;
+    position: relative;
+    padding: 4.8rem;
+    background-color: #fdf2e9;
+  }
+  
+  /* Pseudo Element */
+  
+  .pricing-plan--complete::after {
+    content: "Best Value";
+    position: absolute;
+    top: 5%;
+    right: -9%;
+    transform: rotate(45deg);
+    padding: 0.8rem 3.2rem;
+  
+    color: #333;
+    background-color: #ffd43b;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  /* ------------------------ */
+  .plan-header {
+    text-align: center;
+    margin-bottom: 4.8rem;
+    /* border: 3px solid black; */
+  }
+  .plan-name {
+    margin-bottom: 3.2rem;
+    color: #cf711f;
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: 0.75;
+    text-transform: uppercase;
+    /* border: 1px solid brown; */
+  }
+  .plan-price {
+    margin-bottom: 1.6rem;
+    font-size: 6.2rem;
+    font-weight: 600;
+    color: #333;
+    /* border: 1px solid brown; */
+  }
+  
+  .plan-price span {
+    font-size: 3.1rem;
+    margin-right: 0.8rem;
+  }
+  
+  .plan-text {
+    color: #6f6f6f;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    /* border: 1px solid brown; */
+  }
+  
+  /* ------------------------ */
+  
+  .plan-signup {
+    margin-top: 4.8rem;
+    text-align: center;
+  }
+  
+  .plan-details{
+    text-align: center;
+    font-size: 1.6rem;
+    line-height: 1.6;
+  }
+  
+  /* Features Section Starts Here */
+  
+  .feature {
+    /* border: 1px solid brown; */
+  }
+  
+  .feature-icon {
+    padding: 1.6rem;
+    margin-bottom: 3.2rem;
+    height: 3.2rem;
+    width: 3.2rem;
+    color: #e67e22;
+    border-radius: 50%;
+    background-color: #fdf2e9;
+    /* border: 1px dashed black; */
+  }
+  .feature-title {
+    margin-bottom: 1.6rem;
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #333;
+    /* border: 1px dashed black; */
+  }
+  .feature-text {
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    /* border: 1px dashed black; */
+  }
+  

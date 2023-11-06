@@ -1,0 +1,103 @@
+/* Footer Section Starts Here */
+
+.footer-grid-cols {
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
+
+.section-footer {
+  border: 1px solid black;
+  border-top: 1px solid #eee;
+  padding: 12.8rem 0;
+}
+
+/* 1 Col */
+
+.logo-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+  display: block;
+  margin-bottom: 3.2rem;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+}
+
+.social-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.copyright-text {
+  /* border: 1px solid black; */
+  color: #767676;
+  font-size: 1.4rem;
+  line-height: 1.2;
+
+  /* Flexbox Trick */
+  margin-top: auto;
+}
+
+/* 2nd Col */
+.contact-address {
+  /* border: 1px solid black; */
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+.contact-address p:first-child {
+  margin-bottom: 2.4rem;
+}
+
+/*  3 - 5 Cols */
+.footer-heading,
+.footer-nav {
+  /* border: 1px solid black; */
+}
+
+.footer-heading {
+  margin-bottom: 4rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  list-style: none;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #767676;
+  transition: all 0.3s;
+  /* border: 1px solid black; */
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #555;
+}
+
+/* Credits */
+
+.credits {
+  text-align: center;
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+}
+
+.credits-link:link,
+.credits-link:visited {
+  color: #e67e22;
+  text-decoration: none;
+}

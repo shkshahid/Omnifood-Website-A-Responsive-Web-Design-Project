@@ -1,0 +1,105 @@
+/* Reusable Section */
+
+.container {
+  /* Will end up with 1140px */
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.grid {
+  display: grid;
+  row-gap: 9.6rem;
+  column-gap: 6.4rem;
+  /* margin-bottom: 9.6rem; */
+}
+
+/* .grid:last-child{
+  margin-bottom: 0;
+} */
+
+.grid:not(:last-child){
+  margin-bottom: 9.6rem
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.grid--center-vertical {
+  align-items: center;
+}
+
+/* Helper Classes */
+
+.margin-right-helper {
+  margin-right: 1.6rem !important;
+}
+
+.margin-bottom-helper {
+  margin-bottom: 4.8rem !important;
+}
+
+.text-center{
+  text-align: center;
+}
+
+strong {
+  font-weight: 500;
+}
+
+/* Links */
+
+.link:link,
+.link:visited {
+  display: inline-block;
+  padding-bottom: 2px;
+  text-decoration: none;
+  color: #e67e22;
+  border-bottom: 1px solid currentColor;
+  transition: all 0.3s;
+
+}
+
+.link:hover , .link:active{
+  color: #cf711f;
+  border-bottom: 1px solid transparent;
+  
+}
+
+
+/* Lists */
+
+  
+.list{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  list-style: none;
+}
+
+.list-item{
+  /* border: 1px dotted blue; */
+
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  font-size: 1.8rem;
+
+
+}
+.item-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  color: #e67e22;
+}

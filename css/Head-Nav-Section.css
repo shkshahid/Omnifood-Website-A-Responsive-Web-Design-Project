@@ -1,0 +1,99 @@
+/* Header Section Starts Here */
+/* ========================= */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fdf2e5;
+  position: relative;
+
+  /* Because we want to make it sticky later */
+  height: 9.6rem;
+  padding: 0 4.8rem;
+  /* border: 3px solid blue; */
+}
+
+.logo {
+  /* border: 2px solid red; */
+  height: 2.2rem;
+}
+
+/* Navigation Section Starts Here */
+/* ========================= */
+
+.header-nav {
+  /* border: 2px solid red; */
+}
+
+.nav-list {
+  /* border: 2px solid black; */
+  display: flex;
+  align-items: center;
+  gap: 4.8rem;
+  list-style: none;
+}
+
+.nav-links:link,
+.nav-links:visited {
+  /* border: 1px solid red; */
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-size: 1.8rem;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.nav-links:hover,
+.nav-links:active {
+  background-color: #fdf2e9;
+  color: #cf711f;
+}
+
+.nav-links.nav-cta:link,
+.nav-links.nav-cta:visited {
+  padding: 1.2rem;
+  border-radius: 1rem;
+  background-color: #e67e22;
+  color: #fff;
+}
+
+.nav-links.nav-cta:hover,
+.nav-links.nav-cta:active {
+  background-color: #cf711f;
+}
+
+/* Mobile  Navigation */
+
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
+
+/* Sticky Navigation */
+
+.sticky .header {
+  position: fixed;
+  width: 100%;
+  background-color: rgba(252, 241, 232, 0.97);
+  z-index: 2;
+  height: 8rem;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.03);
+
+}
+ 
+.sticky .section-hero{
+  margin-top: 9.6rem;
+}
